@@ -222,7 +222,7 @@ def export_to_svg_string(width, height, depth_base, depth_top, thickness, folga=
     dwg.write(svg_io)
     return svg_io.getvalue()
 
-st.set_page_config(page_title="Touché (TPSLT)", layout="wide")
+st.set_page_config(page_title="Touché | TPSLT", layout="wide")
 st.title("Touché | Caixa de tampa solta v-0.1.0w")
 
 col1, col2 = st.columns([1, 2])
